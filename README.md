@@ -1,5 +1,5 @@
 # UNIDAD_2
-# Proyecto Arduino con LCD.
+# Proyecto "Sistema Notificador de Llegada de Individuos"
 >Creado por: Diego Salvador Suárez Quijas
 
 >Contacto: d.salvador0604@gmail.com
