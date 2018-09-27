@@ -4,7 +4,7 @@
 
 >Contacto: d.salvador0604@gmail.com
 
-## Alarma con Arduino yun LCD desplegar.
+## Alarma con Arduino y un LCD desplegar.
 - Mensaje (Error y Acceso)
 
 El usuaruario debera de ingresar el PASSWORD correcto, para poder ingresar.
