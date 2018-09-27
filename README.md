@@ -4,10 +4,17 @@
 
 >Contacto: d.salvador0604@gmail.com
 
-## Arduino con un LCD desplegar.
+## Alarma con Arduino yun LCD desplegar.
 - Mensaje (Error y Acceso)
 
 El usuaruario debera de ingresar el PASSWORD correcto, para poder ingresar.
+
+## Problema a Resolver.
+
+Desarrolle una alarma con arduino para el acceso a una puerta. Cuando la puerta se abra, la alarma debería sonar.
+Requisito indispensable:
+Reducir el consumo de energía al mínimo. Mientras la alarma no esté sonando el arduino deberá consumir la mínima cantidad de energía.
+Cuando la puerta se cierre esta deberá de dejar de sonar y regresar al estado de bajo consumo energético.
 
 Programas:
 - Arduino IDE
@@ -22,7 +29,7 @@ Materiales:
 
 Librerias:
 - keypad.h
-- LiquidCrystal_I2.h
+- LiquidCrystal_I2C.h
 - Password.h
 
 **************************** CÓDIGO IMPLEMENTADO Y COMENTADO ****************************************
@@ -31,7 +38,7 @@ Librerias:
 #include <Keypad.h> //Incluimos la libreria Keypad
 #include <LiquidCrystal.h>  //Incluimos la libreria LiquidCrystal
  
-Password password = Password("13273");  //Definimos el Password
+Password password = Password("13273");  //Definimos el Password, puede ser modificada e incluir letras (MAX 5 CARACTERES).
 int dlugosc = 5;                        //Largo del Password
  
 LiquidCrystal lcd(A0, A1, A2, A3, A4, A5); //Definimos los pines del LCD
