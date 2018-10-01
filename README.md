@@ -261,3 +261,11 @@ for( i = 1; i <= 1; i++ )
     lcd.print("FAVOR ENTRE PIN");    
   }
 }
+## Referencia.
+https://www.youtube.com/watch?v=Gmm_gRrrEG8&t=331s
+https://www.prometec.net/control-acceso-clave/
+http://revistas.utp.ac.pa/index.php/ric/article/view/1245/html
+http://arduinosembebidos.blogspot.com/2012/06/proyecto-final-sistema-de-seguridad.html
+https://github.com/mapacheverdugo/control-de-acceso
+https://santiagorss.wordpress.com/
+
